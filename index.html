@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Red+Hat+Text:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="pop-fon" id="popFon">
+        <div class="pop-up" id="mainPop">
+            <p class="pInPopUp">Log in to your account</p>
+            <p class="create">Create account</p>
+            <button class="sotialButtonFacebook"><img class="pop-upImage" src="./assets/img/facebooklogo.svg" alt="Facebook">Sign In with Facebook</button>
+            <button class="sotialButtonGoogle"><img class="pop-upImage" src="./assets/img/googlelogo.svg" alt="Google">Sign In with Google</button>
+            <div class="popUpLine">
+                <hr class="small"/>
+                <p class="pPopLine">or</p>
+                <hr class="small"/>
+            </div>
+            
+            <p class="inputP">E-mail</p>
+                <input class="input__pop" type="email" id="email" />
+            <p class="inputP">Password</p>
+                <input class="input__pop" type="password" id='pass'/>
+            
+            <button class="signButton" id="signin">Sign In</button>
+            <button class="signButtonUp" id="signup">Sign Up</button>
+    
+            <p class="forgotPass">Forgot Your Password?</p>
+    
+            <hr class="downline"/>
+            <p class="doNotHave">Don't have an account? <a  id="registration" class="registerLink">Register</a></p>
+            <p class="haveAcc">Already have an account? <a  id="login" class="loginLink">Log in</a></p>
+            
+        </div>
+    </div>
+
+    <header class="header">
+    
+        <div class="box header-div">
+            <div class="nav-div">
+                <div class="logo">
+                    <a href="#">
+                        <img src="" alt class="icon_logo">
+                    </a>
+                </div>
+                <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a data-goto=".page__section_1" href="#" class="nav-link">How it Works</a></li>
+                    <li class="nav-item"><a data-goto=".page__section_2" href="#" class="nav-link">Plan Your Trip</a></li>
+                    <li class="nav-item"><a data-goto=".page__section_3" href="#" class="nav-link">Destinations</a></li>
+                    <li class="nav-item"><a data-goto=".page__section_4" href="#" class="nav-link">Travel Stories</a></li>
+                </ul>
+            </nav>
+                <button  id="popbutton" class="bt button-login "> Login</button>
+                <div class="burger">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    
+</header>
+<main>
+    <section class="section-title page__section_1">
+        <div class="box div-title">
+            <div class="title">
+                <div class="title-item">
+                    <h1 class="h-title">
+                        Explore the beauty of the World
+                    </h1>
+                    <p class="p-title">
+                        Receive personalized recommendations for countries, hotels, activities and more
+                    </p>
+                    <div class="search">
+                        <input type="text" class="input"  placeholder="What would you like to do?">
+                        <div class="bt button-planning">
+                            Start Planning
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-steps page__section_2">
+        <div class="box">
+            <h2 class="h-txt">
+                3 STEPS TO THE PERFECT TRIP
+            </h2>
+            <div class="div-steps">
+                <div class="steps">
+                    <div class="steps-icon">
+                        <picture class="logotip">
+                            <source media="(max-width: 390px)" srcset="./assets/img/velomobile.svg">
+                        <img src="./assets/img/velo.svg" alt class="velo">
+                        </picture>
+                    </div>
+                    <p class="h-velo">
+                        Tell us what you want to do
+                    </p>
+                </div>
+                <div class="steps">
+                    <div class="steps-icon">
+                        <picture class="logotip">
+                            <source media="(max-width: 390px)" srcset="./assets/img/calendarmobile.svg">
+                        <img src="./assets/img/calendar.svg" alt="calendar">
+                    </picture>
+                    </div>
+                    <p class="h-calendar">
+                        Share us preferable dates
+                    </p>
+                </div>
+                <div class="steps">
+                    <div class="steps-icon">
+                        <picture class="logotip">
+                            <source media="(max-width: 390px)" srcset="./assets/img/flymobile.svg">
+                        <img src="./assets/img/fly.svg" alt="fly">
+                    </picture>
+                    </div>
+                    <p class="h-fly">
+                        We will give you recommendations
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-destinations page__section_3" >
+        <div class="box">
+                <h2 class="h-txt destination__txt">
+                    POPULAR DESTINATIONS
+                </h2>
+                <div class="destination">
+                    <p class="max__txt360">
+                        SPAIN
+                    </p>
+                <div class="div-destination">
+                    <img class="imgdestination" src="./assets/img/spain.svg" alt="SPAIN">
+                        <p class="p-destination">
+                        SPAIN
+                    </p>
+                </div>
+                <div class="div-destination">
+                    <img class="imgdestination" src="./assets/img/london.svg" alt="JAPAN">
+                    <p class="p-destination">
+                        JAPAN
+                    </p>
+                </div>
+                <div class="div-destination">
+                    <img class="imgdestination" src="./assets/img/usa.png" alt="USA">
+                    <p class="p-destination">
+                        USA
+                    </p>
+                </div>
+        </div>
+        <div class="points">
+        <span class="spoints" onclick="currentSlide(1)" id="point-1"></span>
+        <span class="spoints" onclick="currentSlide(2)" id="point-2"></span>
+        <span class="spoints" onclick="currentSlide(3)" id="point-3"></span>
+        </div>
+        <button class="bt button-fm"> 
+         <img src="./assets/img/strelka.svg" alt class="arrow">
+         Find More
+        </button>
+    </div>
+    </section>
+    <section class="section-stories page__section_4" >
+        <h2 class="h-txt">
+            TRAVEL STORIES
+        </h2>
+        <div class="box div-stories">
+            <div class="stories">
+                <div class="stories-item">
+                    <picture class="travel__img">
+                        <source media="(max-width: 390px)" srcset="./assets/img/tailandmobile.jpg">
+                    <img src="./assets/img/tailand.jpg" alt class="stories-img">
+                    </picture>
+                    <div class="h-stories">
+                        <h2 class="stories-txt">
+                            10 Photos of Attractive Thailand
+                        </h2>
+                        <p class="p-stories">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                        
+                        <span class="rm">
+                            Read more
+                        </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="stories-item">
+                    <picture class="travel__img">
+                        <source media="(max-width: 390px)" class="stories-imgmob" srcset="./assets/img/npmobile.jpg">
+                    <img src="./assets/img/np.jpg" alt class="stories-img">
+                    </picture>
+                    <div class="h-stories">
+                        <h2 class="stories-txt">
+                            Canyonlands National Park, Utah
+                        </h2>
+                        <p class="p-stories">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                        
+                        <span class="rm">
+                            Read more
+                        </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="stories-item">
+                    <picture class="travel__img">
+                        <source media="(max-width: 390px)" srcset="./assets/img/mountmobile.jpg">
+                    <img src="./assets/img/mount.jpg" alt class="stories-img">
+                    </picture>
+                    <div class="h-stories">
+                        <h2 class="stories-txt">
+                            I left my heart in the Mountains!
+                        </h2>
+                        <p class="p-stories">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                        
+                        <span class="rm">
+                            Read more
+                        </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="stories-item">
+                    <picture class="travel__img">
+                        <source media="(max-width: 390px)" srcset="./assets/img/longestmobile.jpg">
+                    <img src="./assets/img/car.jpg" alt class="stories-img">
+                    </picture>
+                    <div class="h-stories">
+                        <h2 class="stories-txt">
+                            The Longest journey in my life!
+                        </h2>
+                        <p class="p-stories">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                        
+                        <span class="rm">
+                            Read more
+                        </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="button-stories">
+                    <button class="bt button-sm">
+                        <img src="./assets/img/strelka.svg" alt class="arrow">
+                        See More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="box div-footer">
+        <div class="footer">
+            <p class="text">
+                All Rights Reserved © Travel Portal
+            </p>
+            <ul class="footer-list">
+                <li class="sm-item"><a href="https://rs.school/js-stage0/" class="footer-link"><img src="./assets/img/insta.svg" alt="inst"></a></li>
+                <li class="sm-item"><a href="https://github.com/Evgenezak/" class="footer-link"><img src="./assets/img/yt.svg" alt="yt"></a></li>
+                <li class="sm-item"><a href="https://github.com/Evgenezak/" class="footer-link"><img src="./assets/img/twit.svg" alt="twit"></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+ <script src="./index.js"></script>
+</body>
+   
+</html>
